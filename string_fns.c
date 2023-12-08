@@ -1,13 +1,13 @@
 #include "shell.h"
 /**
- * str_ncmp - Compares two strings (str1 and str2) up to
+ * str_cmp - Compares two strings (str1 and str2) up to
  * a specified length (length).
  * @str1: input string
  * @str2: input string to compare against.
  * @length: Length to compare up to.
  * Return: 1 if strings are equal, -1 if they are not.
  */
-int str_ncmp(char *str1, char *str2, unsigned int length)
+int str_cmp(char *str1, char *str2, unsigned int length)
 {
 	unsigned int i;
 
