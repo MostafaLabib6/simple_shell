@@ -53,3 +53,16 @@ int str_len(char *s)
 		i++;
 	return (i);
 }
+
+/**
+ * _puts -  print function to print input string
+ * @input: String to be printed.
+ * Return: void
+ */
+void _puts(char *input)
+{
+	unsigned int length;
+
+	length = str_len(str);
+	write(STDOUT_FILENO, str, length); /*standard output file*/
+}
