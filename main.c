@@ -36,11 +36,13 @@ int main(void)
 		{
 			printf("Createion error");
 		}
-		free(line);
-		free(env);
-		free(file_name);
-		free(buf);
-		free(create_status);
-		free(tokens);
+		/*
+		// free(line);
+		// free(env);
+		// free(file_name);
+		// free(buf);
+		// free(create_status);
+		// free(tokens);
+		*/
 	}
 }
