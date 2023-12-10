@@ -3,7 +3,6 @@
 /**
  * prompt - check if passed file is regualar or not and print
  * Prompt symbol if valid.
- * @file_name: User input string.
  * @st_buf: buffer that contains the information about file.
  * Return: Pointer to an array of tokens.
  */
