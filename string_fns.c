@@ -9,7 +9,7 @@
  */
 int str_cmp(char *str1, char *str2, int length)
 {
-	unsigned int i;
+	int i;
 
 	if (str_len(str2) < length)
 		return (-1);

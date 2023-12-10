@@ -21,7 +21,7 @@ extern char **environ;
 /* utility functions */
 void _puts(char *str);
 int str_len(char *s);
-int str_cmp(char *str1, char *str2, unsigned int length);
+int str_cmp(char *str1, char *str2, int length);
 char *str_cpy(char *dest, char *src);
 
 char *get_line();

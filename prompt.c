@@ -10,7 +10,7 @@
 void prompt(struct stat st_buf)
 {
 	/*get information about the file*/
-	stat(STDIN_FILENO, &st_buf);
+	fstat(STDIN_FILENO, &st_buf);
 		/*check if the file is regualr*/
 	if (S_ISCHR(st_buf.st_mode))
 		_puts(PROMPT);
