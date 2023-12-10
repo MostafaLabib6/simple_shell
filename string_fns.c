@@ -7,7 +7,7 @@
  * @length: Length to compare up to.
  * Return: 1 if strings are equal, -1 if they are not.
  */
-int str_cmp(char *str1, char *str2, unsigned int length)
+int str_cmp(char *str1, char *str2, int length)
 {
 	unsigned int i;
 
@@ -63,6 +63,6 @@ void _puts(char *input)
 {
 	unsigned int length;
 
-	length = str_len(str);
-	write(STDOUT_FILENO, str, length); /*standard output file*/
+	length = str_len(input);
+	write(STDOUT_FILENO, input, length); /*standard output file*/
 }
