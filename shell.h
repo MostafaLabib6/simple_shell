@@ -25,5 +25,8 @@ int str_cmp(char *str1, char *str2, unsigned int length);
 char *str_cpy(char *dest, char *src);
 
 char *get_line();
+char **str_toknize(char *input);
+int create_child(char *file_path, char **args);
+void prompt(struct stat st_buf);
 
 #endif /*SHELL.H*/
