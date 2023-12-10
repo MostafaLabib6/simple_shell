@@ -35,7 +35,7 @@ int main(void)
 		if (create_status == -1)
 		{
 			printf("Createion error\n");
-			exit(EXIT_FAILURE);
+			exit(-1);
 		}
 		/**
 		 * free(line);
