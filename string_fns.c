@@ -21,7 +21,7 @@ int str_cmp(char *str1, char *str2, unsigned int length)
 			return (-1);
 		i++;
 	}
-	return (1); /
+	return (1);
 }
 
 /**
