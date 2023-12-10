@@ -30,13 +30,12 @@ int main(void)
 			free(tokens);
 			continue;
 		}
-		if (tokens[0] == "exit")
-			exit(EXIT_SUCCESS);
 
 		create_status = create_child(tokens[0], tokens);
 		if (create_status == -1)
 		{
-			printf("Createion error");
+			printf("Createion error\n");
+			exit(EXIT_FAILURE);
 		}
 		/**
 		 * free(line);
