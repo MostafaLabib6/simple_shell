@@ -8,7 +8,7 @@
 
 int main(void)
 {
-	char *line, env, file_name;
+	char *line; /*env, file_name;*/
 	char **tokens;
 	int create_status;
 	struct stat buf;
@@ -36,13 +36,13 @@ int main(void)
 		{
 			printf("Createion error");
 		}
-		/*
-		// free(line);
-		// free(env);
-		// free(file_name);
-		// free(buf);
-		// free(create_status);
-		// free(tokens);
-		*/
+		/**
+		 * free(line);
+		 * free(env);
+		 * free(file_name);
+		 * free(buf);
+		 * free(create_status);
+		 * free(tokens);
+		 */
 	}
 }
